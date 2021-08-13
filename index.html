@@ -1,26 +1,119 @@
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="test.css">
   <title>Test</title>
   <style>
-    .ly{
-    color:white;
-    font-size: 20px;
-    border-left: 18px solid yellow;
+    table,th,td{
+    border: 3px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    font-size:20px;
     background-color:black;
-    padding: 25px;
-    margin-top: 210px;
-    margin-left: 100px;
-    margin-right: 100px;
+    color: yellow;
+    margin-left: 300px;
+    margin-right: 200px;
 }
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.textl{text-align: left;}
+h1{ text-align: center; color: blue}
+.tb{ margin-left: 400px;}
   </style>
 </head>
-<body>    
-    <p class="ly">
-    Tên: Bùi Trần Ngọc Ly <br>
-    Năm sinh: 2001 <br>
-    Giới tính: Nữ <br>
-    Người yêu: Nguyễn Hữu Nhân <br>
-    Sở thích: Làm từ thiện<br>
-    </p>
+<body>
+  <h1>Bảng thông tin sinh viên tốt nghiệp loại xuất sắc</h1>
+  <div>
+    <!-- TR: hàng
+        TH: Tiêu đề
+        TD: dữ liệu
+     -->
+     <table>
+       <tr>
+         <th>Họ tên</th>
+         <th>Mã số sinh viên</th>
+         <th>Năm sinh</th>
+         <th>Giới tính</th>
+         <th>Điểm tốt nghiệp</th>
+       </tr>
+       <tr>
+         <td class="textl">Nguyễn Hữu Nhân</td>
+         <td>B1910114</td>
+         <td>2001</td>
+         <td>Nam</td>
+         <td>3.89</td>
+       </tr>
+       <tr>
+         <td class="textl">Bùi Trần Ngọc Ly</td>
+         <td>B1908338</td>
+         <td>2001</td>
+         <td>Nữ</td>
+         <td>4.0</td>
+       </tr>
+       <tr>
+         <td class="textl">Quan Vân Trường</td>
+         <td>B1910113</td>
+         <td>2002</td>
+         <td>Nam</td>
+         <td>3.99</td>
+       </tr>
+       <tr>
+         <td class="textl">Hoàng Phi Cách Cách</td>
+         <td>B1910115</td>
+         <td>2002</td>
+         <td>Nữ</td>
+         <td>3.78</td>
+       </tr>
+     </table>
+  </div>
+  <br>
+  <h1>Bảng thành tích thi đấu của các sinh viên</h1>
+  <div>
+    <table class="tb">
+      <tr>
+        <th>Tên thí sinh</th>
+        <th>Cuộc thi</th>
+        <th>Thành tích</th>
+      </tr>
+      <tr>
+        <td class="textl">Bùi Trần Ngọc Ly</td>
+        <td>Bảo mật mạng</td>
+        <td>Giải nhất</td>
+      </tr>
+      <tr>
+        <td class="textl">Nguyễn Hữu Nhân</td>
+        <td>Hacker CUP</td>
+        <td>Giải khuyến khích</td>
+      </tr>
+      <tr>
+        <td class="textl">Nguyễn Thị Mỹ Ngọc</td>
+        <td>Trí tuệ nhân tạo</td>
+        <td>Giải nhì</td>
+      </tr>
+    </table>
+  </div>
 </body>
 </html>
