@@ -3,31 +3,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="HTML_Form.css">
     <style>
-        h1{
+        .one{
     text-align: center;
+    border: 5px solid white;
+    font-size: 28px;
+    background-color:blue;
+    color:white;
+    margin-left: 300px;
+    margin-right: 300px;
 }
-div{
-    text-align: center;
+body{
+    background-color: violet;
+}
+label{
     font-size: 20px;
 }
-form{
-    border-style: solid;
-    padding-bottom: 30px;
-    background-color: blue;
-    color: white;
-    border-color: red green black yellow;
-    border-width: 8px;
-    margin-left: 180px;
-    margin-right: 180px;
+.two{
+    font-size: 20px;
+    color:yellow;
+    background-color:black;
+    border: 5px solid white;
+    padding: 15px;
 }
-form {
+.three{
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    border: 5px solid white;
+    padding: 15px;
+}
+.four{
+    font-size:20px;
+    background-color: white;
+    color:red;
+    font-weight: bold;
+    padding: 15px;
+}
+legend{
+    font-size:25px;
+    font-weight: bold;
+}
+.five{
+    padding:20px;
+    border: 5px double white;
+    background-color:black;
+    color:white;
+}
+fieldset{
+    border: 5px solid white;
+    margin-right: 400px;
+}
+body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
   }
-  form {
+  body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 5s ease infinite;
@@ -44,20 +77,99 @@ form {
       background-position: 0% 50%;
     }
   }
-
     </style>
-    <title>Test</title>
+    <title>HTQL</title>
 </head>
 <body>
-   <div>
-       <form>
-           <h1>Đăng nhập HTQL</h1>
-           <label for="tk">Nhập tài khoản</label>
-           <input type="text" id="tk"> <br> <br>
-           <label for="mk">Nhập mật khẩu</label>
-           <input type="text" id="mk"> <br> <br>
-           <input type="submit" value="SUBMIT">
-       </form>
-   </div>
+    <div class="one">
+        <p>Đăng nhập HTQL</p>
+        <form>
+            <label for="readtk">Nhập tài khoản</label>
+            <input type="text" name="tk" id="readtk" required> <br><br>
+            <label for="readmk">Nhập mật khẩu</label>
+            <input type="password" name="mk" id="readmk" required> <br><br>
+            <input type="button" name="login" onclick="alert('Bạn đã ghi danh thành công ! hãy cập nhật thông tin bên dưới')" value="Ghi Danh">
+        </form>
+    </div>
+    <hr>
+    <div class="two">
+        <p>Môn học bạn yêu thích nhất là gì ?</p>
+        <form>
+            <input type="radio" name="sub" id="toan">
+            <label for="toan">Môn toán</label> <br> <br>
+            <input type="radio" name="sub" id="van">
+            <label for="van">Môn ngữ văn</label> <br> <br>
+            <input type="radio" name="sub" id="vatly">
+            <label for="vatly">Môn vật lý</label> <br> <br>
+        </form>
+    </div>
+    <hr>
+    <div class="three">
+        <p>Những ngôn ngữ lập trình mà bạn yêu thích ?</p>
+        <form>
+            <input type="checkbox" name="lg" id="c">
+            <label for="c">Lập trình C</label> <br> <br>
+            <input type="checkbox" name="lg" id="java">
+            <label for="java">Lập trình java(OOP)</label> <br> <br>
+            <input type="checkbox" name="lg" id="python">
+            <label for="python">Lập trình python</label>
+        </form>
+    </div>
+    <hr>
+    <div class="four">
+        <label for="hometown">Quê quán của bạn ở đâu ?</label>
+        <select name="ht" id="home">
+            <option value="AG">An Giang</option>
+            <option value="CT">Cần Thơ</option>
+            <option value="HG">Hậu Giang</option>
+            <option value="TP">Hồ Chí Minh</option>
+        </select>
+        <br><br>
+        <label for="school">Trường Đại học bạn đang theo học ?</label>
+        <select name="schoool" id="sch">
+            <option value="CT">Đại học Cần Thơ</option>
+            <option value="AG">Đại học An Giang</option>
+            <option value="VL">Đại học Vĩnh Long</option>
+            <option value="HG">Đại học Hậu Giang</option>
+        </select>
+        <br><br>
+        <label for="work">Bạn thích làm việc ở đâu ?</label>
+        <select name="work" id="work">
+            <option value="hcm">Thành phố HCM</option>
+            <option value="ct">Thành phố Cần Thơ</option>
+            <option value="ag" selected>Tỉnh An Giang</option>
+            <option value="hometown">Quê của bạn</option>
+        </select>
+    </div>
+    <hr>
+    <div class="five">
+        <form action="https://nguyenhuunhan1912.github.io/HTML_CSS_JS/result.html" target="_blank"> 
+            <fieldset>
+                <legend><img src="https://image.flaticon.com/icons/png/128/5241/5241135.png" height="50" width="50"> Thông tin cá nhân</legend>
+                <label for="name">Họ tên</label> <br>
+                <input type="text" name="name" id="name" required> <br><br>
+                <label for="age">Ngày sinh</label><br>
+                <input type="date" name="age" id="age" required> <br><br>
+                <label for="mssv">Mã số sinh viên</label><br>
+                <input type="text" name="mssv" id="mssv" required><br><br>
+                <label for="cn">Chuyên ngành</label> <br>
+                <input list="cntt" required>
+                <datalist id="cntt">
+                    <option value="Công nghệ thông tin">
+                    <option value="Tin học ứng dụng">
+                    <option value="Mạng máy tính và truyền thông dữ liệu">
+                    <option value="Kĩ thuật phần mềm">
+                    <option value="Khoa học máy tính">
+                    <option value="Hệ thống thông tin"></option>
+                </datalist> <br><br>
+                <label for="gmail">Email</label><br>
+                <input type="email" name="email" id="gmail" required><br><br>
+                <label for="file">CV của bạn</label> <br><br>
+                <input type="file" name="file" id="file" style="font-size:15px;"><br><br>
+                <input type="image" src="https://image.flaticon.com/icons/png/128/2250/2250207.png" width="50" height="50">
+                <input type="image" src="https://image.flaticon.com/icons/png/512/5038/5038573.png" width="50" height="50">
+            </fieldset>
+        </form>
+    </div>
 </body>
 </html>
