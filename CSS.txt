@@ -1,0 +1,67 @@
+NỀN CSS
+
+- opacity: 0.3px; -> Độ mờ 
+- Background-color: red; -> Màu nền
+- Background-image:url('Link') -> Hình nền 
+- Background-repeat: repeat-x , repeat-y -> Lặp lại hình ảnh theo chiều ngang hoặc chiều dọc, còn với no-repeat thì chỉ lặp lại nền đúng 1 lần
+- Background-position: -> Dùng để xác định vị trí của ảnh nằm ở đâu
+- Background-Attachment: fixed; ->Dù di chuyển nhưng hình nền vẫn được cố định 1 chỗ
+- Background-Size: cover -> Hinh nền bao phủ toàn màn hindh hoặc 100%
+
+VĂN BẢN CSS
+
+- text-align: [center,justify];
+	+ Center: Dùng để căn giữa văn bản
+        + Justify: Dùng để căb đều hai lề văn bản nhìn đẹp hơn
+- text-transform: [uppercase,lowercase,capitalize];
+	+ uppercase:In hoa toàn bộ văn bản
+	+ lowercase: In thường toàn bộ văn bản
+	+ capitalize: In hoa chữ cái đầu tiên trong văn bản
+- text-indent: npx; -> Dùng để thụt đầu dòng dòng đoạn văn thứ 1 trong văn bản
+- letter-spacing: npx; -> Dùng để tạo khoảng cách giữa cách chữ cái trong văn bản
+- word-spacing: 10px; -> Dùng để tạo khoảng cách giữa các từ trong văn bản
+- line-height: 1.8px; -> Dùng để xác định chiều cao giữa các dòng trong văn bản
+- text-shadow: apx bpx cpx red; -> Dùng để tạo bóng cho văn bản
+	+ apx: xác định chiều ngang
+	+ bpx: xác định chiều dọc
+	+ cpx: xác định độ nhòe
+	+ color: xác định màu của bóng
+ 
+CSS LIÊN KẾT
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+-> Một liên kết bình thường
+
+/* visited link */
+a:visited {
+  color: green;
+}
+-> Một liên kết người dùng đã truy cập
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+-> Một liên kết khi người dùng rà con trỏ chuột vào đó
+
+/* selected link */
+a:active {
+  color: blue;
+}
+-> Một liên kết ngay khi nó được nhấp vào
+
+- text-decoration: none; -> Được sử dụng để loại bỏ dấu gạch chân của liên kết
+
+CSS NOTE
+
+- Sự khác nhau giữa phần tử cấp khối(element block) và phần tử cấp nội tuyến(element inline)
+  + Phần tử cấp khối luôn bắt đầu trên 1 dòng mới
+  + Chiếm toàn bộ chiều rộng của màn hình
+  + Phần tử cấp nội tuyến không nhất thiết phải bắt đầu trên 1 dòng mới
+  + Chiếu rộng tùy thuộc vào kích cỡ phần tử
+---> Không thể sử sụng margin-top hoặc margin-bottom cho các phần tử cấp nội tuyến vì
+    + Như đã nói nội tuyến kh chiếm toàn bộ chiều rộng màn hình nên kh thể tạo khoảng cách được
+    + Muốn tạo khoảng cách margin của các phần tử cấp nội tuyến thì sử dụng css: display: inline-block hoặc display-block	
