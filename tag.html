@@ -1,0 +1,318 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tag.css">
+    <title>HTML</title>
+</head>
+<body>
+    <div title="Các thẻ tiêu đề">
+        <h1 class="title">Các thẻ tiêu đề</h1>
+    <hr>
+        <h1>Thẻ h1</h1>
+        <h2>Thẻ h2</h2>
+        <h3>Thẻ h3</h3>
+        <h4>Thẻ h4</h4>
+        <h5>Thẻ h5</h5>
+        <h6>Thẻ h6</h6>
+    </div>
+    <hr>
+    <div title="Các thẻ định dạng văn bản ">
+        <h1 class="title">Các thẻ định dạng văn bản</h1>
+        <b>Văn bản được in đậm</b> <br>
+        <i>Văn bản được in nghiên</i> <br>
+        <em>Văn bản được nhấn mạnh</em> <br>
+        <mark>Văn bản được đánh dấu</mark> <br>
+        <del>Văn bản đã được xóa</del> <br>
+        <ins>Văn bản đã được chèn</ins> <br>
+        <p>Văn bản<sub>nằm ở dưới</sub></p>
+        <p>Văn bản<sup>nằm ở trên</sup></p>
+    </div>
+    <hr>
+    <div title="Các thẻ trích dẫn">
+        <h1 class="title">Các thẻ trích dẫn</h1>
+
+        <!--Những văn bản được đặt trong thẻ q sẽ có dấu ngoặc kép-->
+        <p>Thẻ được trích dẫn<q>trong dấu ngoặc kép</q></p>
+
+        <!--Thẻ address là thẻ hiển thị thông tin cá nhân-->
+        <address>
+            Họ và tên: Nguyễn Hữu Nhân <br>
+            Mã số sinh viên: B1910114 <br>
+            Quê quán: An Giang <br>
+            Trường: Đại học Cần Thơ <br>
+        </address>
+
+        <!--Thẻ dbo và thuộc tinhs dir="rtl" là thẻ đảo ngược văn bản-->
+        <p>Thẻ đảo ngược văn bản: <bdo dir="rtl">This line will be written from right to left</bdo></p>
+
+        <!--Thẻ blockquote là thẻ trích dẫn 1 nội dung của ai đó-->
+        <blockquote>
+            Chúng ta đều biết rằng thành công không chỉ nhờ vào ý tưởng tốt hay làm việc chăm chỉ. Chúng ta thành công còn vì may mắn. Nếu tôi phải hỗ trợ gia đình thay vì có thời gian ngồi lập trình, nếu tôi không biết là mình sẽ ổn nếu chẳng may Facebook không thành công, tôi sẽ không đứng đây ngày hôm nay. Nếu thành thật, chúng ta sẽ thấy mình may mắn nhiều như thế nào.
+        </blockquote>
+    </div>
+    <hr>
+    <div title="Các thẻ liên kết và hình ảnh">
+        <h1 class="title">Các thẻ liên kết và hình ảnh</h1>
+        <!--
+            thẻ <a> có tác dụng chèn 1 liên kết vào html
+            Thuộc tính Targer qui định nơi mà đường liên kết sẽ được mở
+            1. Target = "_blank" -> Mở liên kết trong 1 tab mới
+            2. Targer = "_self" -> Mở tài liệu trong cùng một cửa số sẽ đè lên trang hiện hành
+            ....
+        -->
+        <a href="https://www.facebook.com/NhanCoder6311" target="_blank">Facebook</a>
+        <a href="https://github.com/nguyenhuunhan1912" target="_blank">Github</a>
+        <a href="https://www.instagram.com/nhan.coder.1912" target="_blank">Instagram</a>
+        <a href="mailto:nhanb1910114@student.ctu.edu.vn" target="_blank">Gửi email cho tôi</a>
+        <br>
+
+        <!--Các thẻ <img> cho phép chèn 1 hình ảnh vào html thuộc tính alt hiển thị nội dung khi hình ảnh kh mở được ví dụ images --->
+        <img src="https://cdn-icons-png.flaticon.com/128/739/739135.png" width="50" height="50">
+        <img src="https://cdn-icons-png.flaticon.com/128/733/733609.png" width="50" height="50">
+        <img src="https://cdn-icons-png.flaticon.com/128/1409/1409946.png" width="50" height="50">
+        <img src="https://cdn-icons-png.flaticon.com/128/732/732200.png"width="50" height="50">
+        <br>
+
+        <!--Hình ảnh dưới dạng liên kết-->
+        <a href="https://www.facebook.com/NhanCoder6311" target="_top">
+             <img src="https://cdn-icons-png.flaticon.com/128/739/739135.png" width="50" height="50">
+        </a>
+         <a href="https://github.com/nguyenhuunhan1912" target="_blank">
+              <img src="https://cdn-icons-png.flaticon.com/128/733/733609.png" width="50" height="50">
+         </a>
+         <a href="https://www.instagram.com/nhan.coder.1912" target="_blank">
+              <img src="https://cdn-icons-png.flaticon.com/128/1409/1409946.png" width="50" height="50">  
+         </a>
+         <a href="mailto:nhanb1910114@student.ctu.edu.vn" target="_blank">
+             <img src="https://cdn-icons-png.flaticon.com/128/732/732200.png"width="50" height="50">
+         </a>
+    </div>
+    <hr>
+    <div class="center">
+        <h1 class="title">Bảng trong HTML</h1>
+        <!--
+            1. Thẻ <tr> xác định 1 hàng trong bảng (tr: table row)
+            2. Thẻ <th> xác định tiêu đề cho bảng (th: table head)
+            3. Thẻ <td> xác định dữ liệu cho bảng (td: table data)
+            4. Thẻ <caption> xác định tiêu đề của bảng
+            5. Tất cả những thẻ 1-4 nằm trong thẻ <table>
+            6. Để gộp n hàng trong một bảng ta sử dụng thuộc tính rowspan="n" (n>=2)
+            7. Để gộp n cột trong một bảng ta sử dụng thuộc tính colspan="n" (n>=2)
+        -->
+        <table>
+            <caption>Thông tin sinh viên</caption>
+            <thead>
+                <tr>
+                    <th>Họ và tên</th>
+                    <th>Mã số vinh viên</th>
+                    <th>Giới tính</th>
+                    <th>Quê quán</th>
+                    <th colspan="2">Số điện thoại</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nguyễn Hữu Nhân</td>
+                    <td>B1910114</td>
+                    <td>Nam</td>
+                    <td>An Giang</td>
+                    <td>0342040063</td>
+                    <td>01867830115</td>
+                </tr>
+                <tr>
+                    <td>Bùi Trần Ngọc Ly</td>
+                    <td>B1908338</td>
+                    <td>Nữ</td>
+                    <td>Hậu Giang</td>
+                    <td>0908765453</td>
+                    <td>09893764281</td>
+                </tr>
+                <tr>
+                    <td>Nguyễn Văn Bình</td>
+                    <td>B1910119</td>
+                    <td>Nam</td>
+                    <td>An Giang</td>
+                    <td>0983734424</td>
+                    <td>01989640421</td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <tr>
+                <th>Sinh viên loại giỏi</th>
+                <td>Bùi Trần Ngọc Ly</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Email</th>
+                <td>nhanb1910114</td>
+            </tr>
+            <tr>
+                <td>nhanpi00123456789@gmail.com</td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+
+    <div title="Danh sách trong HTML">
+        <h1 class="title">Danh sách trong HTML</h1>
+        <!--
+        Danh sách được chia thành 3 loại
+        1. Danh sách có thứ tự (Ordered Lists)
+        2. Danh sách không có thứ tự (Unordered Lists)
+        3. Danh sách khác (Other Lits)
+        -->
+
+        <!--
+        1.Danh sách có thứ tự
+            + Sử dụng thuộc tính type="value" để đặt thứ tự 
+            + value =[1,i,a,A,I]
+            + Thông thường danh sách có thứ tự sẽ đếm bắt đầu từ 1 để thay đổi vị trí đếm sử dụng thuộc tính start="value"
+        -->
+        <h2>Những ngôn ngữ lập trình phổ biến</h2>
+        <ol type="1">
+            <li>Python</li>
+            <li>Java</li>
+            <li>Java Script</li>
+            <li>PHP</li>
+            <li>C#</li>
+            <li>Ruby</li>
+        </ol>
+
+        <!--
+        2.Danh sách không thứ tự
+            + Sử dụng thuộc tính style="list-style-type:value;" để đặt thứ tự
+            + value = [square,circle,...]
+        -->
+        <h2>Những công cụ lập trình phổ biến</h2>
+        <ul style="list-style-type: square;">
+            <li>Visual studio code</li>
+            <li>Elcipse</li>
+            <li>Neatbeans</li>
+            <li>Notepad++</li>
+            <li>Sublime text 3</li>
+            <li>Pycharm</li>
+        </ul>
+    </div>
+    <hr>
+
+    <div title="Biểu mẫu trong HTML">
+        <h1 class="title">Biểu mẫu trong HTML</h1>
+        <!-- 
+            1. Thẻ Form dùng để chứa các thẻ liên quan đến biểu mẫu như <label>,<input>,<select>,<textarea>,<button>,...
+                + Thuộc tính target trong thẻ <form> cũng tương tự như targe trong thẻ <a>
+                + Thuộc tính action là những dữ liệu vừa nhập sẽ gửi đến 1 server để xử lí VD: action="https://xulidulieu.com/nguyenhuunhan1912"
+                + Thuộc tính method = "GET" dữ liệu không quan trọng sẽ được hiển thị ngay trên url tất nhiên dữ liệu như mật khẩu
+                  sẽ không bao giờ được sử dụng phương thức GET
+                + Thuộc tính method = "POST" tương tự như GET nhưng dữ liệu quan trọng sẽ được ẩn đi trên URL
+                + Thuộc tính autocomplete = "on": Biểu mẫu sẽ được hoàn thành mà người dùng không cần bấm nút gửi nếu nhập đúng dữ liệu yêu cầu
+                
+            2. Thẻ label dùng để hiển thị 1 nhãn trong html 
+                + Thuộc tính for="" của thẻ label để cho id của input lấy được nội dung làm nổi bật lên sự ràng buộc 
+
+            3. Thẻ input dùng để nhập và thẻ input có các thuộc tính
+                + Thuộc tính text: dùng để nhập 1 trường văn bản
+                + Thuộc tính radio: dùng để chọn 
+                + Thuộc tính checkbox: dùng để chọn
+                + Thuộc tính submit: dùng để gửi các yêu cầu vừa nhập đến server hay 1 nơi nào mà người lập trình muốn
+                + Thuộc tính required: Xác định sự bắt buộc nếu không nhập thì không request yêu cầu được
+                + Thuộc tính password: nhập mật khẩu sẽ bị che đi bởi các kí tự dấu .
+                + Thuộc tính button: Nút bấm
+                + Thuộc tính file: Chọn 1 file trong máy tính
+                + Thuộc tính email: Nhập email
+                + Thuộc tính image: Ảnh có chức năng submit 
+            4. Thẻ <textarea> dùng để nhập thông tin 
+
+            5. Bộ 3 kết hợp (Label - Select - Option): Thả một danh sách cho người dùng lựa chọn
+                + Thả ra một danh sách có sẵn để người dụng chọn và không cần phải nhập
+                + Thuộc tính selected xác định giá trị ban đầu hiển thị
+                + Thuộc tính size="" cho người dùng thấy toàn bộ lựa chọn không cần phải kéo thanh để chọn
+                + Thuộc tính value của thẻ <option> để gửi về server VD: ten=&nguyenhuunhan khác với thuộc tính name của input
+
+            6. Bộ 2 kết hợp (Fieldset - legend): Nhóm dữ liệu quan trọng trong biểu mẫu
+                + Thẻ Fieldset là thẻ để nhóm
+                + Thẻ legend là tiêu đề của biểu mẫu được nhóm
+            
+            7. Bộ 3 kết hợp [input(list)-datalist-option] khác vs bộ 3 ở mục 5 là bộ 3 này có thể nhập dữ liệu dựa trên gợi ý
+                + Thuộc tính list của input và thuộc tính id của datalist được kết nối bắt buộc với nhau
+        -->
+
+        <!-- Thẻ input và label và 1 số thuộc tính để tạo giao diện đăng nhập đơn giản -->
+        <div title="label-input-text-password-submit">
+            <form class="HTQL">
+                <p>Đăng nhập hệ thống quản lý</p>
+                <label for="lreadtk" required>Nhap tai khoan</label>
+                <input type="text" id="readtk" name="tk"> <br>
+                <label for="lreadmk" required>Nhap mat khau</label>
+                <input type="password" id="readmk" name="mk"> <br>
+                <input type="button" name="login" value="Đăng nhập" onclick="alert('Bạn đã đăng nhập thành công !')">
+            </form>
+        </div>
+        <hr>
+
+        <!-- Thẻ label và radio để tạo giao diện hỏi người dùng đơn giản -->
+        <div title="label-input-radio">
+            <form class="NNLT">
+                <p style="text-align: center;">Ngôn ngữ lập trình bạn yêu thích nhất là gì ?</p>
+                <input type="radio" name="java" id="java">
+                <label for="java">Java</label> <br>
+                <input type="radio" name="python" id="python">
+                <label for="python">Python</label> <br>
+                <input type="radio" name="javas" id="javas">
+                <label for="java">Java</label> <br>
+                <input type="radio" name="php" id="php">
+                <label for="php">PHP</label>
+            </form>
+        </div>
+        <hr>
+
+        <!-- Thả xuống 1 danh sách (Label - Select - Option) -->
+        <div tilte="Label - Select - Option">
+            <form class="LSO">
+                <label for="school">Bạn đang học trường Đại học nào ?</label>
+                <select id="school" name="school">
+                  <option value="AG">Đại học An Giang</option>
+                  <option value="CT">Đại học Cần Thơ</option>
+                  <option value="SKDA" selected>Đại học sân khấu điện ảnh</option>
+                  <option value="CNTT">Đại học công nghệ thông tin</option>
+                </select>
+                <p style="margin-left:10px">Nhập thông tin cơ bản về trường bạn đang học ?</p>
+                <textarea name="kq" cols="30" rows="10"></textarea>
+            </form>
+        </div>
+        <hr>
+
+        <!-- Gom nhóm dữ liệu quan trọng và đẹp mắt hơn với bộ 2 (Fieldset - Legend) -->
+        <div title="field-legend">
+            <form>
+                <fieldset>
+                    <legend>Thông tin học bổng</legend>
+                    <label for="mssv">Nhập mã số sinh viên</label> <br>
+                    <input type="text" name="kqmssv" id="mssv"> <br>
+                    <label for="diem">Nhập điểm học kì</label> <br>
+                    <input type="password" name="kqdiem" id="diem"> <br>
+                    <input type="submit">
+                </fieldset>
+            </form>
+        </div>
+        <hr>
+
+        <!-- Datalist trong html -->
+        <div title="DataList">
+            <form>
+                <p style="margin-left:10px">Chọn lớp của bạn</p>
+                <input list="major">
+                <datalist id="major">
+                    <option value="DI19V7A1">Công nghệ thông tin 01</option>
+                    <option value="DI19V7A2">Công nghệ thông tin 02</option>
+                    <option value="DK001">Công nghệ thông tin 06</option>
+                    <option value="MMT02">Mạng máy tính 02</option>
+                    <option value="KTPM09">Kĩ thuật phần mềm 02</option>
+                </datalist>
+            </form>
+        </div>
+        
+    </div>
+</body>
+</html>

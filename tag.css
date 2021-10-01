@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+.title{
+    text-align: center;
+    color:red;
+}
+/* CSS table */
+table,th,td{
+    border: 3px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    background-color: gray;
+    font-size: 25px;
+    text-align: center;
+}
+/* Tiêu đề bảng có màu xanh và chữ đậm */
+caption{
+    color: blue;
+    font-weight: bold;
+}
+/* Căn chỉnh bảng nằm giữa màn hình lề trên dưới không thay đổi lề trái phải cách điều */
+table{ 
+    margin: 0 auto;
+}
+/* Biểu mẫu hệ thống quản lý */
+.HTQL{
+    color: yellow;
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid blue;
+    margin-left: 350px;
+    margin-right:350px;
+    background-color: black;
+    border-color: yellow;
+}
+label, input{
+    margin:10px;
+}
+
+.NNLT{
+    border: 3px solid #04aa6d;
+    color: white;
+    background-color: #04aa6d;
+    margin:0 75% 0 0;
+    font-weight: bold;
+}
+.LSO{
+    font-size: 30px;
+}
+select{
+    font-size:20px;
+}
+textarea{
+    margin-left:10px;
+}
+fieldset{
+    width: 500px;
+    padding: 20px;
+}
