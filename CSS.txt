@@ -13,14 +13,17 @@ VĂN BẢN CSS
 - text-align: [center,justify];
 	+ Center: Dùng để căn giữa văn bản
         + Justify: Dùng để căb đều hai lề văn bản nhìn đẹp hơn
+	
 - text-transform: [uppercase,lowercase,capitalize];
 	+ uppercase:In hoa toàn bộ văn bản
 	+ lowercase: In thường toàn bộ văn bản
 	+ capitalize: In hoa chữ cái đầu tiên trong văn bản
+	
 - text-indent: npx; -> Dùng để thụt đầu dòng dòng đoạn văn thứ 1 trong văn bản
 - letter-spacing: npx; -> Dùng để tạo khoảng cách giữa cách chữ cái trong văn bản
 - word-spacing: 10px; -> Dùng để tạo khoảng cách giữa các từ trong văn bản
 - line-height: 1.8px; -> Dùng để xác định chiều cao giữa các dòng trong văn bản
+
 - text-shadow: apx bpx cpx red; -> Dùng để tạo bóng cho văn bản
 	+ apx: xác định chiều ngang
 	+ bpx: xác định chiều dọc
