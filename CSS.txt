@@ -13,18 +13,18 @@ VĂN BẢN CSS
 - text-align: [center,justify];
 	+ Center: Dùng để căn giữa văn bản
         + Justify: Dùng để căb đều hai lề văn bản nhìn đẹp hơn
-	
+
 - text-transform: [uppercase,lowercase,capitalize];
 	+ uppercase:In hoa toàn bộ văn bản
 	+ lowercase: In thường toàn bộ văn bản
 	+ capitalize: In hoa chữ cái đầu tiên trong văn bản
-	
+
 - text-indent: npx; -> Dùng để thụt đầu dòng dòng đoạn văn thứ 1 trong văn bản
 - letter-spacing: npx; -> Dùng để tạo khoảng cách giữa cách chữ cái trong văn bản
 - word-spacing: 10px; -> Dùng để tạo khoảng cách giữa các từ trong văn bản
 - line-height: 1.8px; -> Dùng để xác định chiều cao giữa các dòng trong văn bản
-
 - text-shadow: apx bpx cpx red; -> Dùng để tạo bóng cho văn bản
+
 	+ apx: xác định chiều ngang
 	+ bpx: xác định chiều dọc
 	+ cpx: xác định độ nhòe
@@ -58,6 +58,57 @@ a:active {
 
 - text-decoration: none; -> Được sử dụng để loại bỏ dấu gạch chân của liên kết
 
+CSS LIST
+
+- Thuộc tính list-style-type: qui dịnh điểm đánh dấu trong danh dách
+	+ Danh sách có thứ tự(ol): Charater[1,I,i,a,A]
+	+ Danh sách không có thứ tự(ul): Characrer[Các hình vuông, tròn, kí tự đặc biệt,vvv]
+
+- Thuộc tính list-style-image: url('hinhanhvd.gif'); Qui định điểm đánh dấu là một hình ảnh
+
+- Thuộc tính  list-style-position: Qui định vị trí của điểm đánh dấu
+
+- Thuộc tính list-style-type: none; -> Xóa mặc định các điểm dánh dấu có thể margin và padding mặc định tốt nhât cho nó bằng 0
+--> Việc xóa mặc định dễ cho việc làm thanh điều hướng trong bố cục trang web
+
+CSS TABLE
+- Thuộc tính border-collapse: collapse;-> Xóa bỏ những đường viền thừa chỉ chừa lại những đường viên cần thiết
+- Thuộc tính hover khi rà chuột đến phần tử đó sẽ thay đổi màu sắc kích cở tùy thuộc vào người lập trình
+- Thuộc tính tr:nth-child(even) {background-color: #f2f2f2;} -> Bảng có lằn sọc cách điệu theo màu background
+- Thuộc tính overflow-x: auto; -> Nếu chiều ngang bảng vượt quá chiều ngang màn hình thì sẽ tạo thanh kéo
+
+- MAX-WIDTH trong CSS
+  + Như đã nói 1 phần tử cấp khối(element block) sẽ chiếm chiều rộng hết mức từ trái sang phải của màn hình việc thiết lập width="n%" hoặc width="npx"
+để ngăn kh cho phần tử đó tràn hết trang mà chỉ tràn theo số phần trăm hoặc số px đã được người lập trình chỉ định
+	+ Nhưng khi ta thay đổi kích thước trình duyệt mà chiều rộng trình duyệt nhỏ hơn chiều rộng của phần tử đó thì tự động sẽ tạo thành thanh cuộn
+	+ Để tiện lợi hơn mang lại cảm giác tốt nhất cho người dùng vẫn thấy dk phần tử mà không cần cuộn màn hình để xem ta sử dụng max-width
+	+ max-witdh: "n%"/npx; -> Việc này có nghĩa trình duyệt thu nhỏ cỡ nào thì phần tử sẽ luôn được hiển thị tốt nhất rất hữu ích để resopnsive sau này
+
+
+
+- CSS TRANSFORM: tùy chỉnh kích thước nhưng không ảnh hưởng đến các phần tử khác -> vị trị vẫn ở đó 
+	+ Giá trị scalex(x)/scalex(y); -> Thay đổi chiều rộng hoặc chiều cao 1 phần tử nhưng vị trí ban đầu nó vẫn giữ nguyên 
+	+ VD: Ta có thẻ <h1> có width=50px và height=50px và thẻ <p> là một bài hát nào đó, ta code css như sau của thẻ h1: transfrom: scalex(2,2) tức là 
+		độ rộng và độ cao của h1 đã được tăng lên nhưng câu hỏi đặt ra là thẻ p có bị đẩy xuống hay không -> Câu trả lời là không và đó là kết quả
+		chúng ta muốn thấy vì giá trị scalex chỉ làm tăng kích cỡ của thẻ h1 nhưng không làm thay đổi vị trí, tức nó vẫn nằm yên đó như ban đầu
+		-> Sử dụng transform rất lợi đối với các thẻ element inline vì các thẻ cấp nội tuyến chúng ta căn giữa kh thể sài margin 0 auto được nó 
+			chỉ chiếm diện tích của nội dung chứ kh chiếm toàn bộ 1 hàng ngang trên màn hình như cac thẻ cấp khối
+	+ transform: rotate(45deg); -> Phần tử sẽ xoay 45 độ
+	+ transform: translate(npx,npx) -> translate(50%) tương tự như margin-left: 50%; -> nhưng nó diện tích nó ở đó kh thay đổi và đó là bản chất của transform
+	+ transform: skew(ndeg) -> Chuốt 1 phần tử thành hình bình hành với số độ được cho trước là n deg
+	
+- CSS POSITION
+  + Thuộc tính  position có giá trị: static, relative, fidex, absolute, sticky
+	+ Giá trị fixed: cố định 1 phần tử cho dù có cuộn trang thì phần tử đó vẫn được giữ nguyên và kh bị trôi mất -> Rất 
+			tiện lợi cho việc cố định menu bar trong trang web
+	+ Giá trị static: là giá trị mặc định của thuộc tính position
+	+ Giá trị relative: giống như giá trị translate() của transform tức là dịch chuyển vị trí  nhưng không ảnh hưởng đến các phần tử khác ngoài ra ở thuộc tính
+			   position muốn làm được như thế thì phải khai báo thêm top left right bottom để xác nhận số px hoặc % cần dịch chuyển 1 điểm khác nữa là
+			  ở transform chúng ta chỉ được phép chỉ định chiều dài hoặc rộng còn position chỉ định được cả 4 phía tương ứng top,right,bottom,left
+
+	+VD:    position: relative    ---   Tương            transform: translate(npx,npx)/translateX(npx);                      
+		left: 20px;           ---    tự
+
 CSS NOTE
 
 - Sự khác nhau giữa phần tử cấp khối(element block) và phần tử cấp nội tuyến(element inline)
@@ -68,3 +119,5 @@ CSS NOTE
 ---> Không thể sử sụng margin-top hoặc margin-bottom cho các phần tử cấp nội tuyến vì
     + Như đã nói nội tuyến kh chiếm toàn bộ chiều rộng màn hình nên kh thể tạo khoảng cách được
     + Muốn tạo khoảng cách margin của các phần tử cấp nội tuyến thì sử dụng css: display: inline-block hoặc display-block	
+- Muốn ẩn 1 phần tử để nó không hiển thị trên HTML thì display: none;
+- visibility: hidden; -> CSS phía trước vẫn ẩn 1 phần tử những không gian không bị xóa đi mà vẫn chiếm dụng vị trí trên trang web  
