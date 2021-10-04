@@ -7,6 +7,7 @@
     font-size: 40px;
     display: inline;
     color:white;
+    positon: fixed;
 }
 .p-header{
     font-size:20px;
