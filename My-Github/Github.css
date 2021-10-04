@@ -3,9 +3,6 @@
     margin:0;
     padding:0;
 }
-img{
-    width: 35;
-}
 .h1-header{
     font-size: 40px;
     display: inline;
@@ -29,6 +26,7 @@ section{
 }
 .content-h1{
     font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .content-p{
     font-size: 25px;
@@ -57,12 +55,6 @@ a:hover{
     color:black;
     font-weight: bold;
 }
-a1:hover{
-    border: 1px solid red;
-    background-color: black;
-    color:black;
-    font-weight: bold;
-}
 .content-2{
     float:left;
     width: 25%;
@@ -84,4 +76,35 @@ h3{
     padding: 10px 20px;
     overflow: auto;
     font-size: 15px;
+    border-left:4px solid green;
+    font-family: Consolas;
+}
+footer{
+    background-color: #282a35;
+    padding: 20px;
+}
+.img-footer{
+    background-color:#282a35;
+    width: 50px;
+    margin:10px;
+}
+.manager-img-footer{
+    text-align: center;
+    padding:10px 0 0 10px;
+}
+.button-footer{
+    border: none;
+    background-color: #282a35;
+}
+.button-footer:hover{
+    background-color: white;
+}
+.img-footer:hover{
+    background-color: white;
+}
+.p-footer{
+    font-size: 25px;
+    color:white;
+    font-weight: bold;
+    text-align: center;
 }
