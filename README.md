@@ -6,7 +6,7 @@
 ## CSS
 * [**`DISPLAY`** trong CSS](https://github.com/NguyenHuuNhan1912/HTML-CSS-JS/blob/main/CSS/CSS-Display.md)
 * [**`BACKGROUND`** trong CSS](https://github.com/NguyenHuuNhan1912/HTML-CSS-JS/blob/main/CSS/CSS-Background.md)
-* [**`TEXT`** trong CSS](https://github.com/NguyenHuuNhan1912/HTML-CSS-JS/blob/main/CSS/CSS-TEXT.md)
+* [**`TEXT`**](https://github.com/NguyenHuuNhan1912/HTML-CSS-JS/blob/main/CSS/CSS-Text.md)
 * [**`FLOAT-CLEAR-OVERFLOW` trong CSS**](https://github.com/NguyenHuuNhan1912/HTML-CSS-JS/blob/main/CSS/CSS-Float-Clear-Overflow.md)
 ## Project-mini
 * [Máy tính đơn giản](https://github.com/NguyenHuuNhan1912/HTML_CSS_JS/tree/main/Simple_Calculator)
