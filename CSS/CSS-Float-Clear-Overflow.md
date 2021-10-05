@@ -22,6 +22,7 @@
 ### Chúng ta sử dụng `clearfix` trong trường hợp `không muốn 1 phần tử bị nổi lên phần tử trước đó` hoặc sử dụng trong trường hợp `điều chỉnh chiều cao của thẻ cha tương đương với chiều cao của mọi thẻ con để nội dung bên dưới không bị đè`
 * Như đã trình bày các `giá trị` của `thuộc tính overflow` trong đó có 1 giá trị là `auto` để áp dụng cho kĩ thuật `clearfix` này
 * Chỉ cần CSS: `overflow: auto;` là chúng ta đã có thể `clearfix` 1 cách `đơn giản nhất` và dễ nhất ngoài ra còn nhiều cách `clearfix phức tạp` và `hay hơn` trong nội dung này chỉ dừng lại ở mức cơ bản
+
  <hr>
  
  *Made by Nguyen Huu Nhan*
