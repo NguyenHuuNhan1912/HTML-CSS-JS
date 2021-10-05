@@ -27,6 +27,8 @@
   * color: xác định màu
   * `text-align: 5px 5px 4px grey;` 
  
+ <hr>
+ 
 *References by W3SCHOOL*
 
 *Made by Nguyen Huu Nhan*
