@@ -16,9 +16,9 @@ header{
     background-color: rgb(237, 12, 49);
     text-align: center;
     color: black;
-    line-height: 1.5;
     padding: 20px;
-    position: fixed;
+    width: 100%;
+    line-height: 1.8;
 }
 section{
     width: 100%;
