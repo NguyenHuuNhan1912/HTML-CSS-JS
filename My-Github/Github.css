@@ -7,7 +7,6 @@
     font-size: 40px;
     display: inline;
     color:white;
-    position: fixed;
 }
 .p-header{
     font-size:20px;
@@ -19,6 +18,7 @@ header{
     color: black;
     line-height: 1.5;
     padding: 20px;
+    position: fixed;
 }
 section{
     width: 100%;
