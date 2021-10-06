@@ -1,5 +1,5 @@
 # LỀ TRONG CSS
-## Thuộc tính `margin` trong CSS giúp tạo không gian xung quanh phần tử đang xét với các phần tử bên ngoài với thuộc tính `margin` chúng ta có thể kiểm soát được các lề của phần tử dựa trên các giá trị của chúng
+## Thuộc tính `margin` trong CSS được sử dụng để `tạo không gian xung quanh phần tử đang xét` với `các phần tử bên ngoài` với thuộc tính `margin` chúng ta có thể kiểm soát được các lề của phần tử dựa trên các giá trị của chúng
 * Giá trị `left`: Tạo không gian bên trái phần tử -> `margin-left: 20px;`
 * Giá trị `right`: Tạo không gian bên phải phần tử -> `margin-right: 20px;`
 * Giá trị `top`: Tạo không gian phía trên phần tử -> `margin-top: 20px;`
