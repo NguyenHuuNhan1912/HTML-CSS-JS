@@ -10,3 +10,6 @@
 * Có thể viết thu gọn 3 giá trị: `margin: top left-right bottom;` -> `margin: 10px 10px 10px;`
 * Có thể viết thu gọn 2 giá trị: `margin: top-bottom left-right;` -> `margin: 10px 10px`
 
+<hr>
+
+Made by Nguyen Huu Nhan
