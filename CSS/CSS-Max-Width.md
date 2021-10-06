@@ -34,4 +34,8 @@
   
   * Còn hình ảnh này `đã có sự khác biệt`, hình ảnh được `set max-width` `không bị tràn và vẫn giữ nguyên được chiều rộng ban đầu` trong khi thuộc tính `width` `đã bị tràn và chiều rộng cũng bị thay đổi`
   <img src="https://lh3.googleusercontent.com/QqyDERjDQAd228Dgdt6qD0Rdz-L2lokRZJWvZoB4RaAc6d_niJHeQYsADF2DmlNoGlacZHwA1C-4AXH978rx6AhUo0-1yimaiE0M1PLmR4J-h_IP4LaLlDbeeMJL3OrIj0cI-jB5z49-9u_ImL56bC4j0XSeGtSFMhQwP49661Z2MdnW9yK9dcVchN2E4lUNs8qQjoiZgZuvBSxUmUxLdEvY9XUCMqh8qLcgr4hWQ_l4TqVdfVDM9-PIkTALVj79CiEV1GAkmmiQjYLGCslHX39f2Y6EmfZzHd9KILCQ6BlYtetwKOfKsVeLI8dJPk-SJ_S1_atA04hEnFSxCkhbmG4MaDWCnTyjOXkQLk8rNC0cX4w6lWPhdbpQJIBt204LvbEvZC3sDo3vtBhGZUoD4k0NcjYIAqslicgwsozys_H718GuV_maUcns7BDK4ulB3AvuLQGbISO7nKIlM75D0DqcM0aTZPbxBHJG4HK-wUh4xguizKL59AAEd9q-tNsh_bwPfQx81f0Hsq54LQouJks72qTQQFgFF18WhfHi03VA3pQ8N0v2uKsJO5bOTZfUYzmeG7yhA_y0wbUnbIBYAtMY3CQrbbvqP0nTmPjxrZ5RtQBVaYjwBx5ObIxtsVT-wWcCC9HC1hVrXFyrE-jiXNqcIRy3TmmcZ-ns5j3zL6ZhiaRLOf4R3vqGzo2cYn85OwHelDm6EMd_EmAbzg=w1360-h329-no?authuser=0">
+  
+<hr>
+
+Made by Nguyen Huu Nhan
 
