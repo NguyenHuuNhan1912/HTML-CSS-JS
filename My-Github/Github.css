@@ -9,16 +9,18 @@
     color:white;
 }
 .p-header{
-    font-size:20px;
+    font-size:30px;
     color:white;
 }
 header{
-    background-color: rgb(237, 12, 49);
+    background-color: rgb(66, 135, 245);
     text-align: center;
     color: black;
     padding: 20px;
     width: 100%;
     line-height: 1.8;
+    position: fixed;
+    top: 0;
 }
 section{
     width: 100%;
@@ -108,4 +110,7 @@ footer{
     color:white;
     font-weight: bold;
     text-align: center;
+}
+main{
+    margin-top: 147px;
 }
