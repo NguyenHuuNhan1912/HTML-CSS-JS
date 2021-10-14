@@ -12,8 +12,8 @@
 * Bộ chọn nhóm 
 * Bộ chọn chung
 ## BỘ CHỌN KẾT HỢP
-* Bộ chọn con (space/Dấu cách)
-* Bộ chon con cháu (>)
+* Bộ chọn con cháu(space/Dấu cách)
+* Bộ chon con(>)
 * Bộ chọn anh chị em kế cận (+)
 * Bộ chọn anh chị em chung (~)
 ## BỘ CHỌN THUỘC TÍNH
