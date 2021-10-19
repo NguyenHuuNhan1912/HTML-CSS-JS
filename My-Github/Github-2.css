@@ -1,0 +1,194 @@
+/* Xóa bỏ lề và đệm mặc định và tự động cộng tính toán thay đổi padding */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Source Sans Pro", sans-serif;
+}
+::selection{
+    background-color: red;
+    color: white;
+}
+/* ------------START-HEADER-------------- */
+/* Phần tiêu đề trang web */
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Định dạng thẻ a của header */
+.a-of-header{
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    padding: 20px;
+}
+/* Thiết lập chiều cao chiêu rộng cho thẻ hình ảnh của header */
+.img-of-header{
+    width:45px;
+    height:42px;
+    margin: 10px;
+}
+/* Định dạng kiểu */
+.a-of-header:nth-last-of-type(3){
+    margin-left: auto;
+}
+/* Định dạng trạng thái thẻ a của header sau khi rà chuột */
+.a-of-header:hover{
+    color: white;
+    background-color: #282a35;
+}
+/* --------------END-HEADER--------------------------- */
+/* Python */
+.background-main-python{
+    background-color: #282a35;
+}
+.text-color-h1-python, .text-color-p-python{
+    color: white;
+}
+/* Java */
+.background-main-java{
+    background-color:#fff4a3;
+}
+.text-color-p-java, .text-color-h1-java{
+    color: black;
+}
+/* LTDT - CT175 */
+.background-main-LTDT{
+    background-color: #ffc0c7;
+}
+.text-color-h1-LTDT,.text-color-p-LTDT{
+    color: black;
+}
+
+/* CSS */
+.background-main-CSS{
+    background-color:#96d4d4;
+}
+.text-color-h1-CSS, .text-color-p-java{
+    color:black
+}
+
+/* LTHDT-CT176 */
+.background-main-LTHDT{
+    background-color: rgb(233, 220, 220);
+}
+.text-color-p-LTHDT, .text-color-h1-LTHDT{
+    color: black;
+}
+.container-section{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+.item-section-1{
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+.content-section{
+    width: 500px;
+    text-align: center;
+}
+.h1-of-section{
+    font-size: 100px;
+}
+
+.p-of-section{
+    font-size: 19px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+.a-of-section{
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #059862;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 550;
+    margin: 23px 5px 0 5px;
+    color: white;
+}
+.a-of-section:hover{
+    background-color: blue;
+    color: white;
+}
+.item-section-2{
+    display: flex;
+    align-items: center;
+}
+.example{
+    background-color: #e7e9eb;
+    padding: 20px 10px;
+}
+.h3-of-section-2{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.a-of-section-2{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+    color:white;
+    background-color: #059862;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.a-of-section-2:hover{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+.pre-of-section-2{
+    overflow: auto;
+    width: 405px;
+    height: 164px;
+    background-color: white;
+    padding: 5px 18px 18px 18px;
+    line-height: 1.9;
+    font-size: 17px;
+    font-size: Consolas, Menlo, "courier new", monospace;
+    border-left: 4px solid rgb(45, 221, 45);
+}
+footer{
+    background-color: #282a35;
+    overflow: auto;
+}
+.nav-footer{
+    display: flex;
+}
+.nav-footer > a{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 17px;
+    margin: 30px 15px;
+    border-radius: 10px;
+}
+.a-of-foo:hover{
+    background-color: blue;
+    color: white;
+}
+.a-of-foo:nth-of-type(5){
+    margin-left: auto;
+}
+.p-foo{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: #059862;
+    margin: 0px 30%;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
