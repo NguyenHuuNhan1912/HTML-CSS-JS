@@ -121,3 +121,5 @@ CSS NOTE
     + Muốn tạo khoảng cách margin của các phần tử cấp nội tuyến thì sử dụng css: display: inline-block hoặc display-block	
 - Muốn ẩn 1 phần tử để nó không hiển thị trên HTML thì display: none;
 - visibility: hidden; -> CSS phía trước vẫn ẩn 1 phần tử những không gian không bị xóa đi mà vẫn chiếm dụng vị trí trên trang web  
+
+- Khi một phần tử con sử dụng thuộc tính margin-bottom mà phần tử cha chưa được set height thì sẽ dẫn đến trường hợp bị tràn -> cách xử lý là thêm overflow: auto; vào thẻ cha
