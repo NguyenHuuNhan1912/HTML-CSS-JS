@@ -19,7 +19,7 @@
 ## *Project-mini*
 * [Máy tính đơn giản](https://github.com/NguyenHuuNhan1912/HTML_CSS_JS/tree/main/Simple_Calculator)
 * [Giao diện github](https://github.com/NguyenHuuNhan1912/HTML-CSS-JS/blob/main/My-Github/Github.html)
-
+* [Giao diện giới thiệu thông tin cá nhân](https://nguyenhuunhan1912.github.io/HTML-CSS-JS/My-Github/Information.html)
 <hr>
 
 *Made by Nguyen Huu Nhan*
