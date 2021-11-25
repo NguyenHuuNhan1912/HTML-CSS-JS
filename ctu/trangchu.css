@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-pink: #ed4190;
+    --color-green: #cddc39;
+    --fontSize: 18px;
+}
+
+/* Style - Header */
+.header{
+    background-image: url('/ctu/images/trangchu/header.png');
+    background-size: 100%;
+    padding: 0 10px 10px;
+    position: relative;
+    /* border: 1px solid red; */
+}  
+.img-1{
+    top: -30px;
+    left: 32%;
+    height: 100px;
+}
+.img-2{
+    height: 70px;
+    top: -6px;
+    left: 45%;
+}
+.img-3{
+    height: 90px;
+    left: 67%;
+}
+[class^='img-']{
+    position: absolute;
+}
+.header__logo{
+    padding-bottom: 25px;
+}
+.nav-list{
+    display: flex;
+}
+.nav-list-left{
+    font-size: var(--fontSize);
+    display: flex;
+}
+.nav-item{
+    text-decoration: none;
+    font-size: var(--fontSize);
+    color: var(--color-pink);
+    box-shadow: 0 0 3px 0 #00000066;
+    padding: 5px;
+    border-radius: 3px;
+    width: 110px;
+    text-align: center;
+}
+.nav-item:hover{
+    background-color: violet;
+    color: white;
+}
+.nav-item+.nav-item{
+    margin-left: 10px;
+}
+.nav-list-right{
+    margin-left: auto;
+    display: flex;
+}
+.nav-item-input{
+    box-shadow: 0 0 2px 0 #0000004d;
+    border: none;
+    outline: none;
+}
+::placeholder{
+    padding-left: 5px;
+}
+.nav-item-submit{
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+.search-icon,.cart-icon{
+    background-color: var(--color-green);
+    padding: 7px;
+    font-size: var(--fontSize);
+    box-shadow: 0 0 2px 0 #0000004d;
+}
+.search-icon{
+    color: white;
+}
+.cart-icon{
+    margin-left: 10px;
+    color: var(--color-pink);
+}
+.search-icon:hover,.cart-icon:hover{
+    opacity: 0.5;
+}
+
+
+/* Style - Main */
+.main{
+    padding: 20px;
+}
+.main__img{
+    width: 100%;
+}
+.new-product{
+    color: var(--color-pink);
+}
+.new-product__title{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+.new-product_title{
+    font-size: 29.5px;
+}
+.hr{
+    margin: 0 41%;
+}
+.content{
+    display: flex;
+}
+.content__img{
+    min-width: 330px;
+    height: 160px;
+}
+.content__description{
+    font-size: var(--fontSize);
+    line-height: 1.5;
+    text-align: justify;
+    color: initial;
+    padding-left: 10px;
+}
+.member-corner{
+    color: var(--color-pink);
+}
+.member-corner__title{
+    text-align: center;    
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+.hr--size{
+    margin: 0 39.5%;
+}
+.member-corner_title{
+    font-size: 29.5px;
+}
+.content--reverse{
+    flex-direction: row-reverse;
+}
+.content__video{
+    min-width: 410px;
+    height: 180px;
+}
+.content__description--space{
+    padding-left: 0;   
+    padding-right: 10px;
+}
+.tutorial{
+    color: var(--color-pink);
+}
+.tutorial__title{
+    font-size: 29.5px;
+}
+.tutorial-list{
+    color: initial;
+    font-size: var(--fontSize);
+    display: flex;
+}
+.content-list-left{
+    width: 50%;    
+}
+.content-list-right{
+    width: 50%;
+}
+[class^="tutorial-list-"]{
+    padding-left: 50px;
+}
+.tutorial-head{
+    color: var(--color-pink);
+    padding: 10px 0 20px;
+}
+
+.order-now__title{
+    font-size: 29.5px;
+    color: var(--color-pink);
+    padding-bottom: 20px;
+}
+.order-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    list-style-type: none;
+    grid-gap: 5px;
+    margin: 0 20px;
+}
+.order-item__title{
+    padding-top: 20px;
+    font-size: var(--fontSize);
+}
+.order-item{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-pink);
+    padding: 10px;
+}
+.order-item__img{
+    width: 80px;
+    height: 80px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    box-shadow: 0 0 3px 0 #00000066;
+}
+.footer__copyright{
+    font-size: var(--fontSize);
+}
+.footer__contactus{
+    margin-left: 10px;
+}
+.icon-footer{
+    font-size: 20px;
+    color: var(--color-pink);
+    cursor: pointer;
+    position: relative;
+}
+.icon-footer+.icon-footer{
+    margin-left: 5px;
+}
+.icon-footer:hover{
+    color: var(--color-green);
+}
+.top-website{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 92%;
+}
