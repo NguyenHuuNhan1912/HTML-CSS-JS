@@ -1,0 +1,92 @@
+.recruit-des--space{
+    margin-right: 600px;
+}
+.rice-chicken{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "h1 h1 h1"
+        "h2 h3 h4"
+    ;
+    padding: 60px 100px 0;
+    grid-gap: 50px;
+}
+.rice-chicken:last-child{
+    padding-bottom: 60px;
+}
+.rice-chicken__title{
+    font-size: var(--font-size-title);
+    text-transform: uppercase;
+    grid-area: h1;
+    justify-self: center;
+    padding: 10px 50px;
+    border-radius: 10px;
+    color: white;
+}
+.style-title-cg{
+    background: linear-gradient(to right, rgb(0, 132, 255), rgb(189, 24, 180));
+}
+.style-title-cgdb{
+    position: relative;
+    background: linear-gradient(to right, rgb(0, 255, 106), rgb(24, 178, 189));
+}
+.style-title-cgdb::before{
+    content: "HOT";
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: -30%;
+    right: -10%;
+    background: linear-gradient(to right, red, yellow);
+    padding: 5px 20px;
+    border-radius: 30px;
+    transform: rotate3d(2, 3, 4, 45deg);
+}
+.style-title-mp{
+    background: linear-gradient(to right,rgb(16, 15, 105),rgb(21, 181, 230));
+}
+[class^='rice-chicken__infor-']{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+.rice-chicken__infor-1{
+    grid-area: h2;
+}
+.rice-chicken__infor-2{
+    grid-area: h3;
+}
+.rice-chicken__infor-3{
+    grid-area: h4;
+}
+.rice-img{
+    border-radius: 11px 11px 0px 0px;
+    height: 250px;
+}
+.rice-detail{
+    padding: 0 20px;
+    font-size: var(--fontSize);
+}
+.rice-name{
+    color: red;
+    text-shadow: 2px 2px yellow;
+}
+.rice-detail{
+    line-height: 2;
+    border: 1px solid grey;
+    border-top-color: transparent;
+    box-shadow: 0 6px #dbdbdb;
+}
+.rice-pay{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.rice-price{
+    color: red;
+    font-size: 25px;
+}
+.btn--size{
+    font-size: var(--fontSize);
+}
