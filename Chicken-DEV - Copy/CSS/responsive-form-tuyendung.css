@@ -1,0 +1,115 @@
+@media (max-width: 739px){
+    .recruit-title{
+        font-size: 30px;
+    }
+    .introduce{
+        height: 350px;
+    }
+    .introduce__recruit{
+        left: 40px;
+    }
+    .infor-recruit{
+        grid-template-columns: 1fr;
+        margin: 40px 20px;
+    }
+    .img-shipper{
+        width: 300px;
+    }
+    @keyframes run {
+        0%{top: 0; left: 0;}
+        50%{top:0; left: 50px}
+        100%{top: 0; left: 0;}
+    }
+    .form-recruit{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+        grid-template-areas: initial;
+        margin: 0 20px 40px 20px;
+        padding: 20px;
+        grid-gap: 20px;
+        grid-area: initial;
+    }
+    .form__title{
+        grid-area: initial;
+        font-size: 25px;
+        text-align: center;
+    }
+    .input-name{
+        grid-area:initial;
+    }
+    .input-gt{
+        grid-area:initial;
+    }
+    .input-date{
+        grid-area:initial;
+    }
+    .input-numberphone{
+        grid-area:initial;
+    }
+    .input-address{
+        grid-area:initial;
+    }
+    .input-study{
+        grid-area:initial;
+    }
+    .input-work{
+        grid-area:initial;
+    }
+    .input-stick{
+        grid-area:initial;
+    }
+    .input-link{
+        grid-area: initial;
+    }
+    .experience{
+        grid-area: initial;
+    }
+    .input-question{
+        grid-area: initial;
+        display: none;
+    }
+    .btn{
+        grid-area: initial;
+        font-size: 18px;
+    }
+    /* Footer */
+    .content__footer{
+        grid-template-columns: 1fr;
+        grid-template-areas: initial;
+        grid-gap: 20px;
+        padding: 20px;
+        font-size: 15px;
+    }
+    .footer__address{
+        grid-area: initial;
+        margin: 0 20px;
+    }
+    .footer__phone{
+        grid-area: initial;
+    }
+    .footer__time{
+        grid-area: initial;
+        text-align: center;
+    }    
+    .footer__order{
+        grid-area: initial;
+    }
+    .time-ship{
+        padding: 10px 0;
+    }
+    .address__title{
+        font-size: 18px;
+    }
+    .address__street{
+        font-size: 14px;
+    }
+    .footer__address{
+        text-align: center;
+    }
+    .footer__copyright{
+        font-size: 12px;
+    }
+    .header{
+        display: none;
+    }
+}

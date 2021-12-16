@@ -1,0 +1,71 @@
+.contact-us{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 50px 100px;
+    grid-gap: 20px;
+}
+.map{
+    line-height: 2;
+    font-size: var(--fontSize);
+}
+.map__tile{
+    text-align: center;
+    color: red;
+}
+.map__hometown{
+    width: 100%;
+    padding-top: 10px;
+}
+.map-address, .number-phone{
+    margin-left: 10px;
+}
+.map-icon,.phone-icon{
+    background-color: black;
+    color: yellow;
+    padding: 15px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50px;
+    transition: background-color 0.4s, color 0.4s;
+}
+.map__street{
+    margin-bottom: 10px;
+}
+.map-icon:hover, .phone-icon:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid grey;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px 25px;
+    margin-left: 25px;
+}
+input,textarea{
+    outline: none;
+    border: 1px solid transparent;
+}
+:focus{
+    border: 1px solid green;
+}
+.form__title{
+    font-size: 30px;
+    color: red;
+}
+[class^='input-']{
+    background-color: #f4f2f2;
+    height: 50px;
+    padding-left: 20px;
+    font-family: inherit;
+    font-size: 18px;
+}
+.input-mess{
+    height: initial;
+    padding-top: 20px;
+}
+.btn--size{
+    font-size: 20px;
+}
