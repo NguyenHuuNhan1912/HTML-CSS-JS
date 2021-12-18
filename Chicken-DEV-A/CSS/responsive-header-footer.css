@@ -1,0 +1,100 @@
+
+/* responsive - tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .navbar{
+        padding: 20px 25px !important;
+    }
+    .header__logo{
+        animation: initial;
+        width: 130px;
+    }
+    .navbar-nav{
+        padding: 5px 0 !important;
+    }
+    .navbar-toggler{
+        padding: 0 !important;
+    }
+    .navbar-toggler-icon{
+        display: block !important;
+        border: none !important;
+        background-color: white !important;
+        border-radius: 2px !important;
+        padding: 20px !important;
+        transition: background-color 0.3s linear !important;
+        margin-left: 8px !important;
+    }
+    .nav-bar-main{
+        display: initial !important;
+    }
+    .navbar-toggler-icon:hover{
+        background-color: rgb(76, 237, 248) !important;
+    }
+    /* footer */
+    .content__footer{
+        grid-template-columns: 1fr;
+        grid-template-areas: initial;
+        grid-gap: 40px;
+        padding: 30px 0;
+    }
+    [class^='footer__']{
+        grid-area: initial;
+    }
+    .footer__address,.footer__time{
+        text-align: center;
+    }
+}
+/* responsive - mobile */
+@media (max-width: 739px) {
+
+    /* header */
+    .navbar{
+        padding: 10px 25px !important;
+    }
+    .header__logo{
+        animation: initial;
+        width: 100px;
+    }
+    .nav-icon>i{
+        font-size: 28px !important;
+    }
+    .navbar-nav{
+        padding: 5px 0 !important;
+    }
+    .navbar-toggler{
+        padding: 0 !important;
+    }
+    .navbar-toggler-icon{
+        display: block !important;
+        border: none !important;
+        padding: 18px !important;
+        background-color: white !important;
+        margin-left: 8px;
+        border-radius: 2px !important;
+        transition: background-color 0.3 linear !important;
+    }
+    .navbar-toggler-icon:hover{
+        background-color: rgb(76, 237, 248) !important;
+    }
+    .nav-bar-main{
+        display: initial !important;
+    }
+    .nav-item>i{
+        font-size: 25px !important;
+    }
+    /* footer */
+    .content__footer{
+        grid-template-columns: 1fr;
+        grid-template-areas: initial;
+        grid-gap: 40px;
+        padding: 30px;
+    }
+    [class^='footer__']{
+        grid-area: initial;
+    }
+    .footer__address,.footer__time{
+        text-align: center;
+    }
+    .footer__copyright{
+        font-size: 15px;
+    }
+}
