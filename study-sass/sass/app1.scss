@@ -1,0 +1,65 @@
+@import "./variable.scss";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// Style - Header
+.header{
+    background-color: $bgColor;
+    color: $textColor;
+    padding: 20px;
+    .nav-list{
+        list-style-type: none;
+        font-size: 2rem;
+        display: flex;
+        justify-content: space-between;
+        .nav-item{
+            padding: 8px 16px;
+            border-radius: 10px;
+            transition: all 0.4s linear;
+            &:hover{
+                background-color: black;
+                color: yellow;   
+            }
+        }
+    }
+}
+
+// Style - Main
+@mixin button($bgColor_btn,$textColor_btn,$bg_hover,$text_hover){
+    padding: 8px 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: $bgColor_btn;
+    color: $textColor_btn;
+    &:hover{
+        background-color: $bg_hover;
+        color: $text_hover;
+    }
+}
+.flex-Center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border: 1px solid red;
+    display: flex;
+    @extend .flex-Center;
+    padding: 50px;
+    .btn-dark{
+        @include button(lightblue,red,black,yellow);
+    }
+    .btn-primary{
+        @include button(yellow,green,red,white);
+    }
+}
+
+
+

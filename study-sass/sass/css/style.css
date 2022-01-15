@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: blueviolet;
+  color: white;
+  padding: 20px;
+}
+.header .nav-list {
+  list-style-type: none;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.header .nav-list .nav-item {
+  padding: 8px 16px;
+  border-radius: 10px;
+  transition: all 0.4s linear;
+}
+.header .nav-list .nav-item:hover {
+  background-color: black;
+  color: yellow;
+}
+
+.flex-Center, .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border: 1px solid red;
+  display: flex;
+  padding: 50px;
+}
+.container .btn-dark {
+  padding: 8px 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: lightblue;
+  color: red;
+}
+.container .btn-dark:hover {
+  background-color: black;
+  color: yellow;
+}
+.container .btn-primary {
+  padding: 8px 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: yellow;
+  color: green;
+}
+.container .btn-primary:hover {
+  background-color: red;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
