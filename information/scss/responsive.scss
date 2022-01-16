@@ -1,0 +1,31 @@
+/* Responsive */
+/* xm - min - mobile */
+@media screen and (max-width: 575px){
+    html{
+        font-size: 50%;
+    }
+    .information{
+        .information__head{
+            hr{
+                margin: 0 90px;
+            }
+        }
+    }  
+    .information{
+        .information__body {
+            .social-network{
+                width: 290px;
+            }
+        }
+    } 
+} 
+// IP678
+@media screen and (min-width: 23.4375em) and (max-width: 25.875em){
+    .information{
+        .information__body {
+            .social-network{
+                width: 350px;
+            }
+        }
+    } 
+}

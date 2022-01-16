@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600;700;900&family=Signika:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@900&family=Signika:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: linear-gradient(to right, #f7b733, #fc4a1a);
+}
+
+.information {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px 0;
+}
+.information .information__head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.information .information__head .information__img {
+  width: 130px;
+  border-radius: 100px;
+  border: 3px solid white;
+}
+.information .information__head .information___name {
+  font-size: 5rem;
+  font-family: "Big Shoulders Stencil Display", cursive;
+  padding-top: 15px;
+  text-shadow: 5px -5px 10px #e91111;
+  color: white;
+}
+.information .information__head .information__des {
+  font-size: 2.8rem;
+  font-family: "Grenze Gotisch", cursive;
+  padding-bottom: 10px;
+  text-shadow: 3px -3px 10px #e91111;
+  color: white;
+}
+.information .information__head hr {
+  height: 5px;
+  background-color: white;
+  margin: 0 120px;
+  border-radius: 10px;
+}
+.information .information__body .social-network {
+  color: inherit;
+  font-size: 2.5rem;
+  font-family: "Signika", sans-serif;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 8px;
+  width: 600px;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: white;
+  transition: all 0.4s linear;
+  border: 3px solid transparent;
+}
+.information .information__body .social-network:nth-child(2) > i {
+  color: blue;
+}
+.information .information__body .social-network:nth-child(3) > i {
+  color: red;
+}
+.information .information__body .social-network:nth-child(4) > i {
+  color: blueviolet;
+}
+.information .information__body .social-network:nth-child(5) > i {
+  color: #ea0ef1;
+}
+.information .information__body .social-network:nth-child(6) > i {
+  color: #11b3e9;
+}
+.information .information__body .social-network:nth-child(7) > i {
+  color: green;
+}
+.information .information__body .social-network .social-nextwork__icon {
+  font-size: 4rem;
+  transition: all 0.4s linear;
+}
+.information .information__body .social-network .social-nextwork__name {
+  width: 100%;
+  margin-right: 34px;
+  text-align: center;
+}
+.information .information__body .social-network:hover {
+  background-color: black;
+  color: yellow;
+  transform: scale(1.1);
+  border: 3px solid white;
+}
+.information .information__body .social-network:hover > i {
+  color: yellow;
+}
+
+/*# sourceMappingURL=style.css.map */

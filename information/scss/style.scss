@@ -1,0 +1,117 @@
+// Variable
+@import './variable.scss';
+// Font-family
+// Font-user
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@900&display=swap');
+// Font-des
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600;700;900&family=Signika:wght@700&display=swap');
+// Font-social
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@900&family=Signika:wght@700&display=swap');
+// Reset
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: linear-gradient(to right,#f7b733,#fc4a1a);
+}
+
+// Mixin - Fontsise - FontFamily
+@mixin font($fontSize,$font){
+    font-size: $fontSize;
+    font-family: $font;
+}
+// Flex - align-items = center
+@mixin flex-align-center {
+    display: flex;
+    align-items: center;
+}
+// Style - Main
+.information{
+    @include flex-align-center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px 0;
+    .information__head{
+        text-align: center;
+        margin-bottom: 20px;
+        .information__img{
+            width: 130px;
+            border-radius: 100px;
+            border: 3px solid white;
+        }
+        .information___name{
+            @include font($fontSize-user,$font-user);
+            padding-top: 15px;
+            text-shadow: 5px -5px 10px rgb(233, 17, 17);
+            color: white;
+        }
+        .information__des{
+            @include font($fontSize-des,$font-des);
+            padding-bottom: 10px;
+            text-shadow: 3px -3px 10px rgb(233, 17, 17);
+            color: white;
+        }
+        hr{
+            height: 5px;
+            background-color: white;
+            margin: 0 120px;
+            border-radius: 10px;
+        }
+    }
+    .information__body{
+        .social-network{    
+            color: inherit;
+            @include font($fontSize-social,$font-social);
+            @include flex-align-center;
+            text-decoration: none;
+            border-radius: 8px;
+            width: $width-social;
+            padding: $padding-social;
+            margin-top: $marginTop-social;
+            background-color: white;
+            transition: all 0.4s linear;
+            border: 3px solid transparent;
+            &:nth-child(2)>i{
+                color: $color-face;
+            }
+            &:nth-child(3)>i{
+                color: $color-youtube;
+            }
+            &:nth-child(4)>i{
+                color: $color-tiktok;
+            }
+            &:nth-child(5)>i{
+                color: $color-insta;
+            }
+            &:nth-child(6)>i{
+                color: $color-zalo;
+            }
+            &:nth-child(7)>i{
+                color: $color-repl;
+            }
+            .social-nextwork__icon{
+                font-size: $fontSize-icon;
+                transition: all 0.4s linear;
+            }   
+            .social-nextwork__name{
+                width: 100%;
+                margin-right: 34px;
+                text-align: center;
+            }
+            &:hover{
+                background-color: black;
+                color: yellow;
+                transform: scale(1.1);
+                border: 3px solid white;
+            }
+            &:hover>i{
+                color: yellow;
+            }
+        }
+    }
+}
