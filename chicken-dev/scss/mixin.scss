@@ -1,0 +1,54 @@
+@import './variable.scss';
+
+@mixin flexcenter() {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// Responsive mixin
+// Main lg vs mdd
+@mixin responsive_main_lg_md() {
+    @media #{$res_main_lg_md} {
+        @content;
+    }
+}
+// Main sm vs xm
+@mixin responsive_main_sm_xm() {
+    @media #{$res_main_sm_xm} {
+        @content;
+    }
+}
+@mixin responsive_main_md_sm_xm() {
+    @media #{$res_main_md_sm_xm} {
+        @content;
+    }
+}
+// Large
+@mixin responsive_lg() {
+    @media #{$res_lg} {
+        @content;
+    }
+}
+
+// Medium
+@mixin responsive_md() {
+    @media #{$res_md} {
+        @content;
+    }
+}
+
+// Small
+@mixin responsive_sm() {
+    @media #{$res_sm} {
+        @content;
+    }
+}
+
+// Extra small
+@mixin responsive_xm() {
+    @media #{$res_xm} {
+        @content;
+    }
+}
+

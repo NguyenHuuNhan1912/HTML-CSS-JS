@@ -1,0 +1,97 @@
+@import './mixin.scss';
+
+@include responsive_main_lg_md{
+    .header{
+        .nav-header{
+            .nav-list{
+                .nav-list-link{
+                    display: none;
+                }  
+                .nav-list-icon{
+                    .nav-item-icon{
+                        &:nth-last-child(2)>a{
+                            padding-right: 16px;
+                        }
+                        .bars-icon{
+                            display: block;
+                        }
+                    } 
+                }      
+            }
+        }
+    }
+    .open{
+        font-size: 15px !important;
+    }
+}
+@include responsive_main_md_sm_xm{
+    .footer > *{
+        text-align: center !important;
+    }
+    .open{
+        font-size: $fontSize-footer !important;
+        text-align: center !important;
+    }
+    .call__number{
+        animation: initial !important;
+    }
+    .standard{
+        text-align: center !important;
+    }
+    .nav-list-social{
+        justify-content: center !important;
+    }
+}
+@include responsive_main_sm_xm{
+    .header{
+        .nav-header{
+            .logo{
+                width: 100px;
+            }
+            .nav-list{
+                .nav-list-icon{
+                    .nav-item-icon{
+                        a{
+                            padding: 5px 10px;
+                        }
+                        &:nth-last-child(2)>a{
+                            padding-right: 10px;
+                        }
+                    } 
+                }      
+            }
+        }
+        .nav-header-other{
+            width: 60%;
+        }
+    }
+    .copy-right__title{
+        font-size: 12.6px !important;
+    }
+}
+
+@include responsive_xm {
+    .header{
+        .nav-header{
+            padding: 8px 20px;
+            .logo{
+                width: 80px;
+                animation: initial;
+            }
+            .nav-list{
+                .nav-list-icon{
+                    .nav-item-icon{
+                        a{
+                            img{
+                                width: 30px;
+                            }
+                        }
+                    } 
+                }      
+            }
+        }
+        .nav-header-other{
+            width: 100%;
+        }
+    }
+}
